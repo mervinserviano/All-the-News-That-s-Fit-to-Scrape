@@ -1,0 +1,43 @@
+<nav class="navbar-expand-lg navbar-light pt-3 pb-3">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-light"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link text-white pr-3 pl-3 bg-dark" href="/home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white pr-3 pl-3 bg-dark" id='saved' href="#">Saved</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark pr-3 pl-3 bg-light pulse" id="pulseButton"
+                    href="/scrape"><span>Scrape Articles</span></a>
+            </li>
+        </ul>
+        <span class="navbar-text text-white" style="font-size: 38px;">
+            <h1>Mongo webscraper</h1>
+        </span>
+    </div>
+</nav>
+</div>
+
+<div id="wrapper">
+    <div id="articles"></div>
+
+<!-- Modal -->
+<div class="modal fade" id="cardModal" tabindex="-1" role="dialog" aria-labelledby="cardModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      {{!-- <div class="modal-header">
+      </div> --}}
+      <div class="modal-body">
+          {{!-- Pass notes to modal --}}
+            <div id="notes"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
